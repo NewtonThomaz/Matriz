@@ -28,7 +28,7 @@ public class MultiplicacaoMatriz {
 			}
 			System.out.println("\n--------------------");
 		}
-		System.out.println("Matriz B");
+		System.out.println("Matriz C");
 		for(int i=0; i<3; i++) {
 			for (int j=0; j<3; j++) {
 				System.out.print("["+c[i][j]+"]");
