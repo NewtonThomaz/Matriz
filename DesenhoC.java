@@ -8,10 +8,8 @@ public class DesenhoC {
 
 		for (int l=0; l<5; l++) {
 			for (int c=0; c<5; c++) {
-				if (l==2) {
+				if (l==2||c==2) {
 					m[l][c]='*';
-				}else if(c==2){
-					m[l][2]='*';	
 				}else {
 					m[l][c]=' ';
 				}
