@@ -11,6 +11,9 @@ public class DesenhoA {
 				if(l+c<=3){	
 					m[l][c]='*';
 				}
+				else {
+					m[l][c]=' ';
+				}
 			}
 		}
 		for (char[] l:m) {
